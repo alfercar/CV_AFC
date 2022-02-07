@@ -27,6 +27,7 @@ button:hover{cursor: pointer;font-size: larger;}
     background-color: rgb(33, 97, 140);
     height: fit-content;
     margin-bottom: 15px;
+    margin-top: 15px;
 
     }
 
@@ -107,12 +108,11 @@ button:hover{cursor: pointer;font-size: larger;}
 #Adicional {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: rgb(133, 193, 233);
     color: black;
     height: 450px;
     width: 600px;
-    
     margin-bottom: 15px;
 
 }
@@ -124,7 +124,7 @@ button:hover{cursor: pointer;font-size: larger;}
     background-color: rgb(93, 173, 226);
     color: black;
     text-align: center;
-    font-size: 16.5px;
+    font-size: 15px;
     margin-bottom: 15px;
     font-style: italic;
 }
@@ -177,7 +177,6 @@ button:hover{cursor: pointer;font-size: larger;}
     color: black;
     margin-bottom: 15px;
     align-items: center;
-    
 }
 
 
