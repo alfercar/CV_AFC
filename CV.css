@@ -6,8 +6,8 @@ body {
     background-color: rgb(214, 234, 248);
     margin:auto;
     font-size: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+    
+    width: 90%;
     
     
 }
@@ -112,7 +112,7 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+    
 
 }
 
@@ -130,7 +130,7 @@ button:hover{cursor: pointer;font-size: larger;}
     font-style: italic;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+    
 }
 
 #Laboral{
@@ -144,7 +144,7 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+    
     
 }
 
@@ -159,7 +159,7 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+    
     
 }
 
@@ -174,7 +174,7 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+   
     
 }
 
@@ -189,7 +189,7 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
-    align-items: center;
+   
     
 }
 
@@ -202,7 +202,6 @@ button:hover{cursor: pointer;font-size: larger;}
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 15px;
-    align-items: center;
     border: 1px black solid;
     border-radius: 20px;
 }
