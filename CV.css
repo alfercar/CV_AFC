@@ -6,8 +6,7 @@ body {
     background-color: rgb(214, 234, 248);
     margin:auto;
     font-size: 15px;
-    
-    width: 90%;
+    width: 95%;
     
     
 }
@@ -25,8 +24,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-between;
     background-color: rgb(33, 97, 140);
     height: fit-content;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     margin-top: 15px;
 
@@ -93,8 +91,7 @@ button:hover{cursor: pointer;font-size: larger;}
     display: flex;
     flex-direction: column;
     justify-content:center;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border-radius: 20px;
     }
@@ -107,8 +104,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: flex-start;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -124,8 +120,7 @@ button:hover{cursor: pointer;font-size: larger;}
     color: black;
     text-align: center;
     font-size: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     font-style: italic;
     border: 1px black solid;
@@ -139,8 +134,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -154,8 +148,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -169,8 +162,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -184,8 +176,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -199,8 +190,7 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 95%;
     margin-bottom: 15px;
     border: 1px black solid;
     border-radius: 20px;
