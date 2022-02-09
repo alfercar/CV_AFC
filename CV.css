@@ -1,9 +1,11 @@
 
+html {background-image: url(imagenes/rio.jpg);}
+
 body {
     font-family: sans-serif;
     color: black;
     text-align: justify;
-    background-color: rgb(214, 234, 248);
+    /* background-color: rgb(214, 234, 248); */
     margin:auto;
     font-size: 15px;
     width: 95%;
@@ -23,10 +25,12 @@ button:hover{cursor: pointer;font-size: larger;}
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(33, 97, 140);
-    height: fit-content;
+    height: 7.5%;
     width: 95%;
     margin-bottom: 15px;
-    margin-top: 15px;
+    border: 1px white solid;
+    border-radius: 10px;
+    position:fixed;
     }
 
 #Nombrearriba{display: flex;
@@ -49,7 +53,11 @@ button:hover{cursor: pointer;font-size: larger;}
         }
 
 
-#Enlaces{display: flex; flex-direction: row; margin-right: 10px;}
+#Enlaces{
+    display: flex; 
+    flex-direction: row;
+    margin-right: 10px;
+}
 
 .LinkedIn{
     background-image: url(imagenes/Linkedin1.png);
@@ -103,8 +111,8 @@ button:hover{cursor: pointer;font-size: larger;}
     display: flex;
     flex-direction: column;
     justify-content:center;
-    width: 95%;
-    margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 30px;
     border-radius: 20px;
     }
 
@@ -119,10 +127,10 @@ button:hover{cursor: pointer;font-size: larger;}
     color: black;
     text-align: center;
     font-size: 15px;
-    width: 95%;
-    margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 30px;
     font-style: italic;
-    border: 1px black solid;
+    border: 1.5px white solid;
     border-radius: 20px;
     
 }
@@ -135,22 +143,9 @@ button:hover{cursor: pointer;font-size: larger;}
     background-color: rgb(133, 193, 233);
     color: black;
     width: 95%; 
-    margin-bottom: 15px;
-    
-   
-    
-}
-
-
-.cajas{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(133, 193, 233);
-    color: black;
-    width: 95%; 
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     border-radius: 20px;
+   
     
 }
 
@@ -160,11 +155,15 @@ button:hover{cursor: pointer;font-size: larger;}
     justify-content: space-around;
     background-color: rgb(133, 193, 233);
     color: black;
-    width: 95%; 
-    margin-bottom: 15px;
-    border: 1px black solid;
+    width: 100%; 
+    margin-bottom: 30px;
+    border: 1.5px white solid;
     border-radius: 20px;
     
+}
+
+.cajas{
+    width: 95%; 
 }
 
 
