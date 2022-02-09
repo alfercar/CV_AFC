@@ -133,6 +133,7 @@ button:hover{cursor: pointer;font-size: larger;}
     border: 1.5px white solid;
     border-radius: 20px;
     
+    
 }
 
 
@@ -140,7 +141,7 @@ button:hover{cursor: pointer;font-size: larger;}
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(133, 193, 233);
+    background-color: rgb(93, 173, 226);
     color: black;
     width: 95%; 
     margin-bottom: 30px;
@@ -153,7 +154,7 @@ button:hover{cursor: pointer;font-size: larger;}
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(133, 193, 233);
+    background-color: rgb(93, 173, 226);
     color: black;
     width: 100%; 
     margin-bottom: 30px;
