@@ -14,7 +14,7 @@ body {
 }
 
 h3{text-align: center;
-    font-size: 20px;}
+    font-size: 30px;}
 
 a:hover{cursor: pointer;font-size: larger;}
 button:hover{cursor: pointer;font-size: larger;}
@@ -24,13 +24,14 @@ button:hover{cursor: pointer;font-size: larger;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(33, 97, 140);
-    height: 7.5%;
+    height: fit-content;
     width: 95%;
     margin-bottom: 15px;
     border: 1px white solid;
     border-radius: 10px;
-    position:fixed;
+    position:fixed; 
     }
 
 #Nombrearriba{display: flex;
@@ -44,12 +45,14 @@ button:hover{cursor: pointer;font-size: larger;}
 #Botones{display: flex;
         flex-direction: row;
         justify-content: space-around;
+        
         }
 
 .generic-button {
-        padding: 7px;
+        padding: 10px;
         border-radius: 10px;
         background-color:rgb(179, 179, 230);
+        font-size: large;
         }
 
 
@@ -62,10 +65,10 @@ button:hover{cursor: pointer;font-size: larger;}
 .LinkedIn{
     background-image: url(imagenes/Linkedin1.png);
     background-repeat: no-repeat;
-    background-size: 32px 32px;
     margin-right: 30px;
-    height: 32px;
-    width: 32px;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
     background-position:center ;
     border-radius: 15px;
     border: none;
@@ -73,10 +76,10 @@ button:hover{cursor: pointer;font-size: larger;}
 .GitHub{
     background-image: url(imagenes/github1.jpg);
     background-repeat: no-repeat;
-    background-size: 32px 32px;
+    background-size: 40px 40px;
     margin-right: 30px;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     background-position:center ;
     border-radius: 15px;
     border: none;
@@ -85,10 +88,10 @@ button:hover{cursor: pointer;font-size: larger;}
 .trotarutas{
     background-image: url(imagenes/Trotarutasblog.PNG);
     background-repeat: no-repeat;
-    background-size: 32px 32px;
+    background-size: 40px 40px;
     margin-right: 30px;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     background-position:center ;
     border-radius: 15px;
     border: none;
@@ -97,10 +100,10 @@ button:hover{cursor: pointer;font-size: larger;}
 .CV{
     background-image: url(imagenes/Foto-Alfonso.JPG);
     background-repeat: no-repeat;
-    background-size: 32px 32px;
+    background-size: 40px 40px;
     margin-right: 30px;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     background-position:center ;
     border-radius: 15px;
     border: none;
@@ -132,8 +135,6 @@ button:hover{cursor: pointer;font-size: larger;}
     font-style: italic;
     border: 1.5px white solid;
     border-radius: 20px;
-    
-    
 }
 
 
@@ -166,7 +167,3 @@ button:hover{cursor: pointer;font-size: larger;}
 .cajas{
     width: 95%; 
 }
-
-
-
-
