@@ -1,1 +1,8 @@
-// alert ("Bienvenido a mi página web-CV online. Para saber más acerca de mi pulse el icono superior derecho con mi cara")
+
+var botonito = document.getElementById("botonito")
+
+botonito.addEventListener("click", showMessage)
+
+function showMessage (){
+    alert("Vaya vaya...")
+}
