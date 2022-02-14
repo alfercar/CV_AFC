@@ -55,6 +55,13 @@ button:hover{cursor: pointer;font-size: larger;}
         font-size: large;
         }
 
+.generic-button2 {
+        padding: 10px;
+        border-radius: 25px;
+        background-color:rgb(202, 207, 210);
+        font-size: large;
+        }
+
 
 #Enlaces{
     display: flex; 
@@ -129,7 +136,7 @@ button:hover{cursor: pointer;font-size: larger;}
     background-color: rgb(93, 173, 226);
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
     margin-bottom: 30px;
     font-style: italic;
@@ -168,10 +175,20 @@ button:hover{cursor: pointer;font-size: larger;}
     width: 95%; 
 }
 
+#DescargaCV{
+    background-color: rgb(93, 173, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
 #botonito{
   background-color: rgb(93, 173, 226);
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   display: flex;
   flex-direction: column;
@@ -181,6 +198,7 @@ button:hover{cursor: pointer;font-size: larger;}
   font-size: 15px;
 }
 
+/* Prueba de algo que vi trasteando en w3school */
 @keyframes example {
     0%   {background-color: rgb(33, 97, 140);}
     50%  {background-color: rgb(93, 173, 226);}
@@ -223,51 +241,11 @@ button:hover{cursor: pointer;font-size: larger;}
             font-size: smaller;
             }
     
-    .LinkedIn{
-        background-image: url(imagenes/Linkedin1.png);
-        background-repeat: no-repeat;
+    .LinkedIn,.GitHub,.CV,.trotarutas{
         margin-right: 15px;
         background-size: 20px 20px;
         height: 20px;
         width: 20px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-    .GitHub{
-        background-image: url(imagenes/github1.jpg);
-        background-repeat: no-repeat;
-        margin-right: 15px;
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-    
-    .trotarutas{
-        background-image: url(imagenes/Trotarutasblog.PNG);
-        background-repeat: no-repeat;
-        margin-right: 15px;
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-    
-    .CV{
-        background-image: url(imagenes/Foto-Alfonso.JPG);
-        background-repeat: no-repeat;
-        margin-right: 15px;
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
     }
         
 }
@@ -305,56 +283,14 @@ button:hover{cursor: pointer;font-size: larger;}
     .generic-button {
             padding: 2.5px;
             border-radius: 10px;
-            background-color:rgb(179, 179, 230);
             font-size: 8px;
-
             }
     
-    .LinkedIn{
-        background-image: url(imagenes/Linkedin1.png);
-        background-repeat: no-repeat;
+    .LinkedIn, .GitHub,.trotarutas,.CV{ 
         margin-right: 10px;
         background-size: 15px 15px;
         height: 15px;
         width: 15px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
     }
-    .GitHub{
-        background-image: url(imagenes/github1.jpg);
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        background-size: 15px 15px;
-        height: 15px;
-        width: 15px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-    
-    .trotarutas{
-        background-image: url(imagenes/Trotarutasblog.PNG);
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        background-size: 15px 15px;
-        height: 15px;
-        width: 15px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-    
-    .CV{
-        background-image: url(imagenes/Foto-Alfonso.JPG);
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        background-size: 15px 15px;
-        height: 15px;
-        width: 15px;
-        background-position:center ;
-        border-radius: 15px;
-        border: none;
-    }
-        
+
 }
