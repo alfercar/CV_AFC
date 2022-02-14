@@ -74,3 +74,6 @@ mostrar6.addEventListener('click', masinfo6);
 function masinfo6(){    
     document.getElementById('todaInfo6').classList.toggle('oculto');         
 };
+
+
+
